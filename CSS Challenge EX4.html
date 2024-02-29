@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Clr NavBar</title>
+    <style>
+        :root{
+            --rcolor : rgb(252, 153, 153);
+            --bcolor : rgb(0, 255, 238);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav{
+            list-style: none;
+            display:flex;
+            color:aliceblue;
+            
+        }
+
+        .ndiv{
+            display: flex;
+            width: 100vw;
+            background-color: var(--rcolor);
+            justify-content: center;
+            align-items: center;
+            height: 5vh;
+        }
+        .navel{
+            margin: 0px 10px 0px 10px;
+            font-size: 0.9rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="ndiv">
+        <ul class="nav">
+            <li class="navel">Home</li>
+            <li class="navel">About Us</li>
+            <li class="navel">Contact Us</li>
+        </ul>
+    </div>
+    
+</body>
+</html>
